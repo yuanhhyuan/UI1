@@ -1,0 +1,10 @@
+android 8种对话框（Dialog）使用方法汇总
+https://www.cnblogs.com/gzdaijie/p/5222191.html
+
+常用的对话框相关的有：AlertDialog,ProgressDialog，自定义的对话框
+ProgressDialog官方在Androidd 8.0中已经弃用它了：“This class was deprecated in API level 26.“，但是实际用Android 8.0模拟器运行并没有出现问题。而且官网没有给出效果相同的直接代替的类。只是建议用别的东西代替，如ProgressBar。
+
+自定义PopupWindow轻松实现从底部弹出
+http://blog.csdn.net/lb_fighting/article/details/51276669
+
+最关键的区别是AlertDialog不能指定显示位置，只能默认显示在屏幕最中间（当然也可以通过设置WindowManager参数来改变位置）。而PopupWindow是可以指定显示位置的，随便哪个位置都可以，更加灵活。

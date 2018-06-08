@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/mbutton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定取消提示框"
+        />
+    <Button
+        android:id="@+id/mbutton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="多个按钮提示框"
+        />
+    <Button
+        android:id="@+id/mbutton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="列表提示框"
+        />
+    <Button
+        android:id="@+id/mbutton4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="单项选择列表框"
+        />
+    <Button
+        android:id="@+id/mbutton5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="多项选择列表框"
+        />
+    <Button
+        android:id="@+id/mbutton6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="编辑dialog"
+        />
+
+    <Button
+        android:id="@+id/mbutton7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义dialog"
+        />
+    <Button
+        android:id="@+id/mbutton8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="等待Dialog"
+        />
+    <Button
+        android:id="@+id/mbutton9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条Dialog"
+        />
+
+    <Button
+        android:id="@+id/mbutton10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="带倒计时的Dialog"
+        />
+
+    <Button
+        android:id="@+id/mbutton11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义LoadingDialog"
+        />
+
+
+
+</LinearLayout>
