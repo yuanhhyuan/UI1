@@ -34,5 +34,12 @@
 15、Fragment
 
 16、menu
+a.
+
+b. Context menu：上下文菜单
+操作时需要长时间按住某个item不放，就会弹出Context menu。
+
+c.Popup menu：弹出式菜单
+
 
 17、Notification
